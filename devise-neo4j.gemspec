@@ -58,7 +58,7 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<ruby-debug>, [">= 0.10.3"])
-      s.add_dependency(%q<neo4j>, ["~> 1.1.1"])
+      s.add_dependency(%q<neo4j>, [">= 1.1.1"])
       s.add_dependency(%q<devise>, ["= 1.3.4"])
     end
   else
